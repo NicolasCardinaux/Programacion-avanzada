@@ -16,7 +16,6 @@ async function fetchElements() {
     }));
 }
 
-// fetchElements().then(data => console.log(data)).catch(error => console.error(error));
 
 async function displayElements() {
     const cryptoList = document.getElementById('crypto-list');
