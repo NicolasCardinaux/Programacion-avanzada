@@ -76,7 +76,7 @@ const resultado = procesarArray(array, function(num) {
     return num * 2;
 });
 
-console.log(resultado); // [2, 4, 6, 8]
+console.log(resultado); 
 
 // Ejercicio 9: Función que Devuelve Otra Función
 function crearMultiplicador(x) {
