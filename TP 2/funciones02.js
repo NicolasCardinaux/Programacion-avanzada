@@ -60,7 +60,7 @@ function despedir() {
     return adios();
 }
 
-console.log(despedir()); // Adiós!
+console.log(despedir()); 
 
 // Ejercicio 8: Función que Usa Otra Función
 function procesarArray(arr, func) {
