@@ -90,7 +90,7 @@ function actualizarUsuario(usuario, cambios) {
     return usuarioActualizado;
 }
 
-// Ejecución de ejemplo para algunas funciones
+
 (async () => {
     await imprimirNombresDeUsuarios();
     
