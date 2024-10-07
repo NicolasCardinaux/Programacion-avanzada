@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid'; // Importamos uuid
+import { v4 as uuidv4 } from 'uuid';
 
 export const Formulario = ({ tareas, setTareas }) => {
   const [proyecto, setProyecto] = useState('');
@@ -14,16 +14,15 @@ export const Formulario = ({ tareas, setTareas }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Validar que todos los campos estén llenos
+
     if ([proyecto, tipo, persona, storyPoints, prioridad, fechaCreacion, resumen].includes('')) {
       setError(true);
       return;
     }
     setError(false);
 
-    // Crear un nuevo objeto de tarea con un id único
     const nuevaTarea = {
-      id: uuidv4(), // Generamos un ID único para cada tarea
+      id: uuidv4(), 
       proyecto,
       tipo,
       persona,
@@ -33,10 +32,10 @@ export const Formulario = ({ tareas, setTareas }) => {
       resumen
     };
 
-    // Agregar la nueva tarea al estado
+   
     setTareas([...tareas, nuevaTarea]);
 
-    // Limpiar el formulario
+   
     setProyecto('');
     setTipo('');
     setPersona('');
