@@ -14,7 +14,7 @@ const PlanSection = forwardRef((_, ref) => {
     {
       name: "Pago Anual",
       price: "$99",
-      discount: "Ahorra $129 comparado al plan mensual.",
+      discount: "Ahorra $129 comparado el plan anual.",
       recommended: true,
     },
     {
