@@ -102,21 +102,21 @@ header img {
 
 @media only screen and (max-width: 768px) {
   header {
-    height: auto; /* Ajusta la altura si es necesario */
+    height: auto; 
   }
 
-  /* Asegurarse de que el logo esté bien centrado */
+
   header img {
-    margin-top: 30px; /* Ajustar si es necesario */
-    justify-self: center; /* Centrando horizontalmente en versión móvil */
+    margin-top: 30px;
+    justify-self: center; 
   }
 
   .header--title-container {
-    margin-top: 30px; /* Ajusta el margen superior si es necesario */
+    margin-top: 30px; 
   }
 
   .header--button {
-    margin-top: 20px; /* Ajustar la distancia del botón si se requiere */
+    margin-top: 20px; 
   }
 }
 
