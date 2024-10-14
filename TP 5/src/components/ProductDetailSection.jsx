@@ -14,7 +14,7 @@ const features = [
   {
     icon: eyeIcon,
     title: 'No hay tasas escondidas',
-    description: 'Ni en la compra o al momento de exit, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.',
+    description: 'Ni en la compra o al momento de salir, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.',
   },
   {
     icon: dollarIcon,
