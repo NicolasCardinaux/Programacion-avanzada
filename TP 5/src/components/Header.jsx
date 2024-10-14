@@ -12,7 +12,7 @@ const Header = ({ planSectionRef }) => {
       <img src={logo} alt="Logo de Batabit" />
       <div className="header--title-container">
         <h1>La próxima revolución en el intercambio de criptomonedas</h1>
-        <p>Batabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+        <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
         <button onClick={scrollToPlans} className="header--button">
           Conoce Nuestros Planes 
           <span className="arrow-icon" style={{ backgroundImage: `url(${downArrow})` }}></span>
