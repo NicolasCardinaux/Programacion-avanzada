@@ -14,12 +14,12 @@ const features = [
   {
     icon: eyeIcon,
     title: 'No hay tasas escondidas',
-    description: 'Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.',
+    description: 'Ni en la compra o al momento de exit, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.',
   },
   {
     icon: dollarIcon,
     title: 'Compare monedas',
-    description: 'No más rumores, con Batabit sabrás el valor real de cada moneda en el mercado actual.',
+    description: 'No más rumores, con Batatabit sabrás el valor real de cada moneda en el mercado actual.',
   },
   {
     icon: checkIcon,
