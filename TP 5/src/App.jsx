@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'; // Importa useRef
+import React, { useRef } from 'react';
 import Header from './components/Header';
 import ExchangeSection from './components/ExchangeSection';
 import TableSection from './components/TableSection';
@@ -9,17 +9,17 @@ import KnowItToday from './components/KnowItToday';
 import './index.css';
 
 function App() {
-  const planSectionRef = useRef(null); // Crea una referencia para PlanSection
+  const planSectionRef = useRef(null);
 
   return (
     <div className="App">
-      <Header planSectionRef={planSectionRef} /> {/* Pasa la referencia al Header */}
+      <Header planSectionRef={planSectionRef} /> {}
       <main>
         <ExchangeSection />
         <TableSection />
         <ProductDetailSection />
         <KnowItToday /> 
-        <PlanSection ref={planSectionRef} /> {/* Asigna la referencia a PlanSection */}
+        <PlanSection ref={planSectionRef} /> {}
       </main>
       <Footer />
     </div>
